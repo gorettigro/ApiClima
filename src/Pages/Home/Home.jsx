@@ -29,6 +29,7 @@ const Home = () => {
     if(result.cod === 200){
         setError(false);
         setCityInformation(result);
+        console.log(cityInformation);
         setLoader(false);
         return;
     }else{
